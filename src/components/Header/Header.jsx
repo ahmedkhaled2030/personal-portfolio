@@ -17,6 +17,7 @@ const Header = () => {
           className={`paddings ${css.wrapper}`}
           style={{boxShadow:headerShow}}
     >
+      {/* fadeIn('right' , 'tween','delay','duration') */}
       <div className={`flexCenter ${css.container}`}>
         <div className={`css.name`}>Ahmed</div>
         <ul
