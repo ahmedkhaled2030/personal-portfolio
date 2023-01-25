@@ -13,6 +13,7 @@ const People = () => {
       viewPort={{ once: false, amount: 0.25 }}
       className={` paddings ${css.wrapper}`}
     >
+       <a className='anchor' id="reviews"></a>
       <div className={`yPaddings innerWidth ${css.container}`}>
         <div className={`flexCenter ${css.heading}`}>
           <span className={`primaryText`}>People talk about us</span>
