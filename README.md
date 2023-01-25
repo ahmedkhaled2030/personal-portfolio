@@ -6,6 +6,7 @@
 🚀 React<br />
 🚀 Framer motion<br />
 🚀 slick-carousel <br />
+🚀 sass <br />
 
 
 ## Live Demo
