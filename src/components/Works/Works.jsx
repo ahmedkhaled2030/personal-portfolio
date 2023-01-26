@@ -17,8 +17,8 @@ const Works = () => {
             initial="hidden"
             whileInView="show"
             viewPort={{ once: false, amount: 0.25 }}
-            className={`paddings ${css.wrapper} `}
-        >
+            className={`paddings ${css.wrapper}`}
+        >    
                   <a className='anchor' id="experience"></a>
             <div className={`flexCenter innerWidth ${css.container}`}>
                 <span className={`primaryText yPaddings`}>My Work Experience</span>

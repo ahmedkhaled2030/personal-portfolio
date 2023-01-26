@@ -117,16 +117,21 @@ export const comments = [
   },
 ];
 
+
+
+
 export const sliderSettings = {
   dots: true,
-  infinite: false,
-  speed: 1000,
+  infinite: true,
+  speed: 400,
   slidesToShow: 3,
   slidesToScroll: 1,
   initialSlide: 0,
   touchMove: true,
   useCSS: true,
+  // fade: true,
 
+  
   responsive: [
     {
       breakpoint: 1024,

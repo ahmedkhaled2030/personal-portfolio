@@ -1,0 +1,28 @@
+@import "../../styles/contants.scss";
+.slide {
+  width: 952px;
+  height: 409px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 23px;
+  margin-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  max-width: 100vw;
+  img {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    position: absolute;
+    animation: slide 20s infinite;
+    opacity: 0;
+  }
+
+  .slide .slick-prev:before,
+  .slide .slick-next:before {
+    border: none;
+    color: transparent;
+    font-size: 20px;
+  }
+}

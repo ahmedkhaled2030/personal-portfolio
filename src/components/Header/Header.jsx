@@ -27,7 +27,7 @@ const Header = () => {
         <ul
           className={`flexCenter  ${css.menu}`}
           style={getMenuStyles(menuOpened)}
-          ref={menuRef}
+          ref={menuRef}  
         >
           <li>
             <a href="#services">Services</a>
